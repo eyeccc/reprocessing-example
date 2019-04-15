@@ -1,5 +1,7 @@
-Reprocessing Example
+Reprocessing Example -- Fruit Ninja games (from ReasonConf 2019 Dojo)
 ---
+
+fruit assets omitted in git commit: tinyurl.com/reason-fruit-ninja
 
 Clone this repo to get started with [Reprocessing](https://github.com/schmavery/reprocessing).
 
