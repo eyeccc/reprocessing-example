@@ -39,36 +39,14 @@ let mousePositions = ref([]);
 let gravity = 0.8;
 let setup = env => {
   Env.size(~width=600, ~height=600, env);
-  let background =
-    Draw.loadImage(
-      ~filename="../assets/background.png",
-      env,
-    );
+  let background = Draw.loadImage(~filename="assets/background.png", env);
   let fruitimgs = [|
-    Draw.loadImage(
-      ~filename="../assets/apple.png",
-      env,
-    ),
-    Draw.loadImage(
-      ~filename="../assets/banana.png",
-      env,
-    ),
-    Draw.loadImage(
-      ~filename="../assets/coconut.png",
-      env,
-    ),
-    Draw.loadImage(
-      ~filename="../assets/orange.png",
-      env,
-    ),
-    Draw.loadImage(
-      ~filename="../assets/pineapple.png",
-      env,
-    ),
-    Draw.loadImage(
-      ~filename="../assets/watermelon.png",
-      env,
-    ),
+    Draw.loadImage(~filename="assets/apple.png", env),
+    Draw.loadImage(~filename="assets/banana.png", env),
+    Draw.loadImage(~filename="assets/coconut.png", env),
+    Draw.loadImage(~filename="assets/orange.png", env),
+    Draw.loadImage(~filename="assets/pineapple.png", env),
+    Draw.loadImage(~filename="assets/watermelon.png", env),
   |];
   {
     fruitimgs,
