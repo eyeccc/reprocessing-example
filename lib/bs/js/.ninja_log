@@ -1,0 +1,11 @@
+# ninja log v5
+0	24	1565079767	src/IndexHot.mlast	45e1f8702162c832
+0	27	1565079767	src/index.mlast	c83b95c85a868f08
+24	33	1565079767	src/IndexHot.mlast.d	a2dffb596789b014
+27	37	1565079767	src/index.mlast.d	c8b07636f04c42fe
+2	19	1565079767	src/IndexHot.cmj	db00308a88a200e2
+2	19	1565079767	/Users/chihching/reprocessing-fruit-ninja/lib/js/src/IndexHot.js	db00308a88a200e2
+2	19	1565079767	src/IndexHot.cmi	db00308a88a200e2
+0	25	1565079767	src/index.cmj	fcfe8b0bc767e068
+0	25	1565079767	/Users/chihching/reprocessing-fruit-ninja/lib/js/src/index.js	fcfe8b0bc767e068
+0	25	1565079767	src/index.cmi	fcfe8b0bc767e068
